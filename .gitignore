@@ -1,0 +1,22 @@
+# Build artifacts
+gemm
+*.o
+*.so
+*.a
+*.out
+
+# Profiling reports
+*.ncu-rep
+*.nsys-rep
+*.sqlite
+profile_gemm.*
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Checkpoints
+.ipynb_checkpoints/
