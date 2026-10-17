@@ -150,15 +150,3 @@ ncu --set full -o profile_gemm ./gemm
 ```
 
 ---
-
-## 📚 Interview Preparation Reference
-See [`DEVTECH_INTERVIEW_CHEATSHEET.md`](DEVTECH_INTERVIEW_CHEATSHEET.md) for deep-dive explanations on:
-- Mathematical derivation of Arithmetic Intensity and the Roofline Model
-- Bank conflict mechanics and broadcast detection rules
-- Little's Law for GPU latency hiding (ILP vs. Occupancy)
-- Microarchitectural evolution: Shared Memory to Tensor Cores (`WMMA` / `MMA`)
-
----
-
-## 👤 Author & Background
-Created as a portfolio project for the **NVIDIA Compute Developer Technology (DevTech) Internship**. Demonstrates practical proficiency in CUDA C++, microarchitecture analysis, memory subsystem optimization, and high-performance kernel design.
