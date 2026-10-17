@@ -438,9 +438,6 @@ void run_benchmark_for_size(int N, cublasHandle_t cublas_handle) {
 }
 
 int main(int argc, char** argv) {
-    std::cout << "================================================================================" << std::endl;
-    std::cout << "   NVIDIA DevTech Internship Showcase: Custom CUDA GEMM Optimization Suite      " << std::endl;
-    std::cout << "================================================================================" << std::endl;
 
     // Query Device Properties
     int device_id = 0;
