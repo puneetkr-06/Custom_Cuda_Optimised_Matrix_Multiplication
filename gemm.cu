@@ -6,17 +6,11 @@
 #include <cublas_v2.h>
 
 /**
- * ============================================================================
- * NVIDIA DevTech Interview Preparation - High Performance GEMM in CUDA C++
- * ============================================================================
  * 
  * Matrix Multiplication: C = A * B
  * Dimensions: A is (M x K), B is (K x N), C is (M x N).
  * In this benchmark, we evaluate square matrices: M = N = K.
  *
- * ----------------------------------------------------------------------------
- * CORE CONCEPTS TESTED IN NVIDIA DEVTECH INTERVIEWS:
- * ----------------------------------------------------------------------------
  * 1. Arithmetic Intensity & The Roofline Model:
  *    - GEMM requires 2 * N^3 floating point operations (FLOPs) for N^3 multiply-adds.
  *    - Memory traffic: Reading A and B, writing C.
